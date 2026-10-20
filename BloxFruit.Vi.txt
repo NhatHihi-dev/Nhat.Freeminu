@@ -11696,9 +11696,9 @@ end})
 task.spawn(function()
   while task.wait() do
     if _G.daylightN then
-      if _G.SelectDN == "Day" then
+      if _G.SelectDN == "Ngày" then
         Lighting.ClockTime = 12
-      elseif _G.SelectDN == "Night" then
+      elseif _G.SelectDN == "Tối" then
         Lighting.ClockTime = 0
       end
     end
